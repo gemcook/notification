@@ -1,0 +1,29 @@
+.rc-notification {
+  top: 5px !important;
+
+  .rc-notification-notice {
+    width: 95vw;
+    padding: 11px 20px 11px 10px;
+    border: none;
+
+    .rc-notification-notice-close {
+      top: 1px;
+      right: 9px;
+      color: white !important;
+      font-size: 20px;
+      font-weight: 100;
+      opacity: 1;
+
+      &:hover {
+        color: white !important;
+        opacity: 0.85;
+      }
+    }
+
+    .rc-notification-notice-content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
