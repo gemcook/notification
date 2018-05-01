@@ -13,7 +13,7 @@ function GcNotification(
   message: string,
   type: string = 'default',
   onClose: any = null,
-  duration: number = 2.5,
+  duration: number = 2,
   closable: boolean = true,
 ) {
   let bgColor;
