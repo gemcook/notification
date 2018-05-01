@@ -1,6 +1,6 @@
 {
   "name": "@gemcook/notification",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "lib/index.umd.js",
   "repository": "https://github.com/gemcook/notification.git",
   "author": "Gemcook, Inc.",
