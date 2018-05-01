@@ -1,0 +1,67 @@
+/* @flow */
+// declare module 'hasStringsLowerAndUpper' {
+//   declare function hasStringsLowerAndUpper(value: string): boolean;
+// }
+
+// Table Stateless Component
+declare type TableProps = {
+  activeData: [] | Array<*>,
+  columns:
+    | [
+        {
+          Header: string,
+          accessor: string,
+          resizable: boolean,
+          sortable: boolean,
+        },
+      ]
+    | Array<*>,
+  loading: boolean,
+  sortState: {},
+  updateSortState: () => void,
+  noDataMessage: string,
+  outline: boolean,
+  current: number,
+  updateCurrent: (current: number) => void,
+  pageSize: number,
+  showPagination: boolean,
+  paginationPosition: string,
+  showSizeChanger: boolean,
+  updatePageSize: (current: number, pageSize: number) => void,
+  pageSizeOptions: [string],
+  total: number,
+  disabledPagination: boolean,
+};
+declare function Table<T>(): T;
+
+// Column Stateless Component
+declare type ColumnProps = {
+  style: {},
+  className: string,
+  children: [
+    {
+      props: {
+        style: {},
+        children: string,
+      },
+    },
+    any,
+  ],
+  sortState: {
+    key: string,
+    order: string,
+  },
+  updateSortState: ({}) => void,
+  columns: [],
+};
+declare function Column<T>(): T;
+
+// Loading Stateless Component
+declare type LoadingProps = {};
+declare function Loading<T>(): T;
+
+// NoData Stateless Component
+declare type NoDataProps = {
+  noDataMessage: string,
+};
+declare function NoData<T>(): T;
