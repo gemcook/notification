@@ -5,7 +5,6 @@
     width: 95vw;
     padding: 11px 20px 11px 10px;
     border: none;
-    line-height: 1.7 !important;
 
     .rc-notification-notice-close {
       top: -4px;
@@ -17,8 +16,6 @@
       opacity: 1;
 
       span {
-        line-height: 1.7 !important;
-
         &.rc-notification-notice-close-x::after {
           font-family: unset !important;
           font-size: 20px !important;
@@ -35,7 +32,6 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      line-height: 1.7 !important;
     }
   }
 }
