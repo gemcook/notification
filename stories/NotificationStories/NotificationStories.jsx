@@ -35,7 +35,8 @@ const NotificationStories = () => {
               }}
               color="pink"
               onClick={() =>
-                notify('これは通知メッセージです', undefined, undefined, 0.5)
+                // notify('これは通知メッセージです', undefined, undefined, 0.5)
+                notify('これは通知メッセージです', undefined, undefined, 0)
               }>
               Open Modal
             </Button>

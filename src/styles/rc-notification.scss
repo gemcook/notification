@@ -5,14 +5,25 @@
     width: 95vw;
     padding: 11px 20px 11px 10px;
     border: none;
+    line-height: 1.7 !important;
 
     .rc-notification-notice-close {
-      top: 1px;
+      top: -4px;
       right: 9px;
       color: white !important;
       font-size: 20px;
       font-weight: 100;
+      line-height: 1.7 !important;
       opacity: 1;
+
+      span {
+        line-height: 1.7 !important;
+
+        &.rc-notification-notice-close-x::after {
+          font-family: unset !important;
+          font-size: 20px !important;
+        }
+      }
 
       &:hover {
         color: white !important;
