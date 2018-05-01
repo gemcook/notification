@@ -35,7 +35,25 @@ const NotificationStories = () => {
               }}
               color="pink"
               onClick={() =>
-                // notify('これは通知メッセージです', undefined, undefined, 0.5)
+                notify('これは通知メッセージです', undefined, undefined, 0.5)
+              }>
+              Open Modal
+            </Button>
+          </>
+        );
+      }),
+    )
+    .add(
+      "don't auto close",
+      withState({})(({store}) => {
+        return (
+          <>
+            <Button
+              style={{
+                margin: '10px',
+              }}
+              color="pink"
+              onClick={() =>
                 notify('これは通知メッセージです', undefined, undefined, 0)
               }>
               Open Modal
