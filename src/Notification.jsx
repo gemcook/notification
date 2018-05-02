@@ -11,7 +11,7 @@ Notification.newInstance({}, n => {
 
 function GcNotification(
   message: string,
-  type: string = 'default',
+  type: string = 'gemcook',
   onClose: any = null,
   duration: number = 2,
   closable: boolean = true,
