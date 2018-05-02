@@ -6,7 +6,7 @@ import {withState} from '@dump247/storybook-state';
 import {notify} from '../../src';
 
 const NotificationStories = () => {
-  storiesOf('Notification', module)
+  storiesOf('Notification UI', module)
     .add(
       'default',
       withState({})(({store}) => {
