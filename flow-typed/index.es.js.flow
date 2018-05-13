@@ -1,0 +1,3 @@
+/* eslint-disable */
+/* @flow */
+declare export function notify(message: string, type?: string, onClose?: any, duration?: number, closable?: boolean): void;
