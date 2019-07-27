@@ -92,7 +92,7 @@ export default [
     output: {
       file: 'lib/index.js',
       format: 'umd',
-      name: 'Modal',
+      name: 'Notification',
       globals: {
         react: 'React',
         'react-dom': 'ReactDOM',
