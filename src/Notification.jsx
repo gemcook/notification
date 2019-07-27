@@ -14,7 +14,7 @@ function GcNotification(
   type: string = 'gemcook',
   onClose: any = null,
   duration: number = 2,
-  closable: boolean = true,
+  closable: boolean = true
 ) {
   let bgColor;
   let color;
@@ -125,7 +125,8 @@ function GcNotification(
       <span
         className={classNames({
           gc__notification: true,
-        })}>
+        })}
+      >
         {message}
       </span>
     ),

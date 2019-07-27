@@ -1,4 +1,3 @@
-/* @flow */
 import * as React from 'react';
 import {storiesOf} from '@storybook/react';
 import {Button} from 'semantic-ui-react';
@@ -17,12 +16,13 @@ const NotificationStories = () => {
                 margin: '10px',
               }}
               color="pink"
-              onClick={() => notify('これは通知メッセージです')}>
+              onClick={() => notify('これは通知メッセージです')}
+            >
               Open Modal
             </Button>
           </>
         );
-      }),
+      })
     )
     .add(
       'change duration',
@@ -36,12 +36,13 @@ const NotificationStories = () => {
               color="pink"
               onClick={() =>
                 notify('これは通知メッセージです', undefined, undefined, 0.5)
-              }>
+              }
+            >
               Open Modal
             </Button>
           </>
         );
-      }),
+      })
     )
     .add(
       'remove close button',
@@ -59,14 +60,15 @@ const NotificationStories = () => {
                   undefined,
                   undefined,
                   undefined,
-                  false,
+                  false
                 )
-              }>
+              }
+            >
               Open Modal
             </Button>
           </>
         );
-      }),
+      })
     )
     .add(
       'onClose event',
@@ -82,12 +84,13 @@ const NotificationStories = () => {
                 notify('これは通知メッセージです', undefined, () => {
                   console.info('onClose Event!!!!!');
                 })
-              }>
+              }
+            >
               Open Modal
             </Button>
           </>
         );
-      }),
+      })
     );
 };
 

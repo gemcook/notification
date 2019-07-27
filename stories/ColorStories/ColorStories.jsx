@@ -1,4 +1,3 @@
-/* @flow */
 import * as React from 'react';
 import {storiesOf} from '@storybook/react';
 import {Button} from 'semantic-ui-react';
@@ -17,12 +16,13 @@ const ColorStories = () => {
                 margin: '10px',
               }}
               color="pink"
-              onClick={() => notify('フルーツの登録に成功しました', 'success')}>
+              onClick={() => notify('フルーツの登録に成功しました', 'success')}
+            >
               Open Modal
             </Button>
           </>
         );
-      }),
+      })
     )
     .add(
       'warning',
@@ -36,12 +36,13 @@ const ColorStories = () => {
               color="pink"
               onClick={() =>
                 notify('フルーツの状態が最新ではありません', 'warning')
-              }>
+              }
+            >
               Open Modal
             </Button>
           </>
         );
-      }),
+      })
     )
     .add(
       'error',
@@ -53,12 +54,13 @@ const ColorStories = () => {
                 margin: '10px',
               }}
               color="pink"
-              onClick={() => notify('フルーツの登録に失敗しました', 'error')}>
+              onClick={() => notify('フルーツの登録に失敗しました', 'error')}
+            >
               Open Modal
             </Button>
           </>
         );
-      }),
+      })
     )
     .add(
       'info',
@@ -70,12 +72,13 @@ const ColorStories = () => {
                 margin: '10px',
               }}
               color="pink"
-              onClick={() => notify('新しいフルーツが入荷しています', 'info')}>
+              onClick={() => notify('新しいフルーツが入荷しています', 'info')}
+            >
               Open Modal
             </Button>
           </>
         );
-      }),
+      })
     )
     .add(
       'black',
@@ -87,12 +90,13 @@ const ColorStories = () => {
                 margin: '10px',
               }}
               color="pink"
-              onClick={() => notify('新しいフルーツが入荷しています', 'black')}>
+              onClick={() => notify('新しいフルーツが入荷しています', 'black')}
+            >
               Open Modal
             </Button>
           </>
         );
-      }),
+      })
     )
     .add(
       'gemcook',
@@ -106,12 +110,13 @@ const ColorStories = () => {
               color="pink"
               onClick={() =>
                 notify('新しいフルーツが入荷しています', 'gemcook')
-              }>
+              }
+            >
               Open Modal
             </Button>
           </>
         );
-      }),
+      })
     )
     .add(
       'facebook',
@@ -125,12 +130,13 @@ const ColorStories = () => {
               color="pink"
               onClick={() =>
                 notify('新しいフルーツが入荷しています', 'facebook')
-              }>
+              }
+            >
               Open Modal
             </Button>
           </>
         );
-      }),
+      })
     )
     .add(
       'twitter',
@@ -144,12 +150,13 @@ const ColorStories = () => {
               color="pink"
               onClick={() =>
                 notify('新しいフルーツが入荷しています', 'twitter')
-              }>
+              }
+            >
               Open Modal
             </Button>
           </>
         );
-      }),
+      })
     )
     .add(
       'airbnb',
@@ -161,14 +168,13 @@ const ColorStories = () => {
                 margin: '10px',
               }}
               color="pink"
-              onClick={() =>
-                notify('新しいフルーツが入荷しています', 'airbnb')
-              }>
+              onClick={() => notify('新しいフルーツが入荷しています', 'airbnb')}
+            >
               Open Modal
             </Button>
           </>
         );
-      }),
+      })
     )
     .add(
       'instagram',
@@ -182,12 +188,13 @@ const ColorStories = () => {
               color="pink"
               onClick={() =>
                 notify('新しいフルーツが入荷しています', 'instagram')
-              }>
+              }
+            >
               Open Modal
             </Button>
           </>
         );
-      }),
+      })
     )
     .add(
       'spotify',
@@ -201,12 +208,13 @@ const ColorStories = () => {
               color="pink"
               onClick={() =>
                 notify('新しいフルーツが入荷しています', 'spotify')
-              }>
+              }
+            >
               Open Modal
             </Button>
           </>
         );
-      }),
+      })
     )
     .add(
       'medium',
@@ -218,14 +226,13 @@ const ColorStories = () => {
                 margin: '10px',
               }}
               color="pink"
-              onClick={() =>
-                notify('新しいフルーツが入荷しています', 'medium')
-              }>
+              onClick={() => notify('新しいフルーツが入荷しています', 'medium')}
+            >
               Open Modal
             </Button>
           </>
         );
-      }),
+      })
     )
     .add(
       'snapchat',
@@ -239,12 +246,13 @@ const ColorStories = () => {
               color="pink"
               onClick={() =>
                 notify('新しいフルーツが入荷しています', 'snapchat')
-              }>
+              }
+            >
               Open Modal
             </Button>
           </>
         );
-      }),
+      })
     )
     .add(
       'google',
@@ -256,14 +264,13 @@ const ColorStories = () => {
                 margin: '10px',
               }}
               color="pink"
-              onClick={() =>
-                notify('新しいフルーツが入荷しています', 'google')
-              }>
+              onClick={() => notify('新しいフルーツが入荷しています', 'google')}
+            >
               Open Modal
             </Button>
           </>
         );
-      }),
+      })
     )
     .add(
       'pinterest',
@@ -277,12 +284,13 @@ const ColorStories = () => {
               color="pink"
               onClick={() =>
                 notify('新しいフルーツが入荷しています', 'pinterest')
-              }>
+              }
+            >
               Open Modal
             </Button>
           </>
         );
-      }),
+      })
     )
     .add(
       'reddit',
@@ -294,14 +302,13 @@ const ColorStories = () => {
                 margin: '10px',
               }}
               color="pink"
-              onClick={() =>
-                notify('新しいフルーツが入荷しています', 'reddit')
-              }>
+              onClick={() => notify('新しいフルーツが入荷しています', 'reddit')}
+            >
               Open Modal
             </Button>
           </>
         );
-      }),
+      })
     )
     .add(
       'line',
@@ -313,12 +320,13 @@ const ColorStories = () => {
                 margin: '10px',
               }}
               color="pink"
-              onClick={() => notify('新しいフルーツが入荷しています', 'line')}>
+              onClick={() => notify('新しいフルーツが入荷しています', 'line')}
+            >
               Open Modal
             </Button>
           </>
         );
-      }),
+      })
     )
     .add(
       'mixi',
@@ -330,12 +338,13 @@ const ColorStories = () => {
                 margin: '10px',
               }}
               color="pink"
-              onClick={() => notify('新しいフルーツが入荷しています', 'mixi')}>
+              onClick={() => notify('新しいフルーツが入荷しています', 'mixi')}
+            >
               Open Modal
             </Button>
           </>
         );
-      }),
+      })
     );
 };
 
