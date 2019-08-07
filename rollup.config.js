@@ -58,8 +58,8 @@ export default [
               modules: false,
             },
           ],
-          ['@babel/preset-react', {useBuiltIns: true}],
           '@babel/preset-flow',
+          ['@babel/preset-react', {useBuiltIns: true}],
         ],
         plugins: [
           [
