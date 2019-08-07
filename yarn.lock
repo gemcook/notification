@@ -8917,7 +8917,7 @@ rc-animate@2.x:
     rc-util "^4.8.0"
     react-lifecycles-compat "^3.0.4"
 
-rc-notification@^3.1.1:
+rc-notification@^3.3.1:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/rc-notification/-/rc-notification-3.3.1.tgz#0baa3e70f8d40ab015ce8fa78c260c490fc7beb4"
   integrity sha512-U5+f4BmBVfMSf3OHSLyRagsJ74yKwlrQAtbbL5ijoA0F2C60BufwnOcHG18tVprd7iaIjzZt1TKMmQSYSvgrig==
