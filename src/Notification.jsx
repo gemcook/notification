@@ -3,6 +3,7 @@ import React from 'react';
 import Notification from 'rc-notification';
 import classNames from 'classnames';
 
+import 'rc-notification/dist/rc-notification.min.css';
 import './styles/index.scss';
 
 let notification: any = null;
