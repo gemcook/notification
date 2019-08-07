@@ -2,7 +2,6 @@
 import React from 'react';
 import Notification from 'rc-notification';
 import classNames from 'classnames';
-import 'rc-notification/assets/index.css';
 
 let notification: any = null;
 Notification.newInstance({}, n => {
