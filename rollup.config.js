@@ -35,7 +35,6 @@ export default [
       }),
       commonjs({
         include: 'node_modules/**',
-        ignore: ['indexof'],
       }),
       babel({
         runtimeHelpers: true,
