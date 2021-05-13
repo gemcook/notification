@@ -1,3 +1,8 @@
+#
+.PHONY: start
+start:
+	yarn run storybook
+
 # ライブラリのためのビルドをする
 .PHONY: build
 build:
