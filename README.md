@@ -4,9 +4,6 @@
 
 React Notification Component.
 
-## Online Demo
-
-* https://notification.storybook.gemcook.com
 
 ## Installation
 
